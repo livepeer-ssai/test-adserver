@@ -1,6 +1,6 @@
-# Eyevinn Test Adserver
+#  Test Adserver
 
-The Eyevinn Test Adserver is an adserver that can be used in different testing contexts. Examples of use cases:
+The  Test Adserver is an adserver that can be used in different testing contexts. Examples of use cases:
 
 - Ad server for testing server-side ad-insertion (SSAI) stitching as the VAST response always contains ads and creatives.
 - Verify what query parameters are passed from the client device through the SSAI component as it stores all received query parameters for a request (session).
@@ -18,7 +18,7 @@ In a future update, we will add support for persistent storage using PostgreSQL.
 Other databases can be used also, as long as they follow the same implementation steps that of the coming PostgreSQL example. 
 
 ## Usage 
-- `git clone https://github.com/Eyevinn/test-adserver.git`
+- `git clone https://github.com/livepeer-ssai/test-adserver`
 - `cd test-adserver`
 - `npm install`, then
 - `npm start` to run the server.
